@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "asali"
+version = "0.1.0"
+description = "Amino acid sequence aligner"
+authors = ["Melih DARCAN <57872471+MelihDarcanxyz@users.noreply.github.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+
+[tool.poetry.group.dev.dependencies]
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+
+[tool.poetry.group.docs.dependencies]
+pdoc3 = "^0.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
