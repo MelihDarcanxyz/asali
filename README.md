@@ -32,8 +32,8 @@ from asali.SequenceAligner import SequenceAligner
 
 aligner = SequenceAligner.from_file(
     "scoring_matrix.txt", 
-    gap_open=5,  # Penalty for opening gaps
-    gap_extend=1  # Penalty for extending gaps
+    gap_open=-5,  # Penalty for opening gaps
+    gap_extend=-1  # Penalty for extending gaps
 )
 ```
 
